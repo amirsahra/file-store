@@ -10,11 +10,17 @@
 
     <title>Startmin - Bootstrap Admin Theme</title>
 
-    <link href="{{asset('css/dashboard.css')}}" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
+    <link href="{{asset('dashboard/css/bootstrap.min.css')}}" rel="stylesheet">
+
     <!-- MetisMenu CSS -->
+    <link href="{{asset('dashboard/css/metisMenu.min.css')}}" rel="stylesheet">
+
     <!-- Custom CSS -->
+    <link href="{{asset('dashboard/css/startmin.css')}}" rel="stylesheet">
+
     <!-- Custom Fonts -->
+    <link href="{{asset('dashboard/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -235,11 +241,17 @@
 </div>
 <!-- /#wrapper -->
 
-<script src="{{asset('js/dashboard.js')}}"></script>
 <!-- jQuery -->
+<script src="{{asset('dashboard/js/jquery.min.js')}}"></script>
+
 <!-- Bootstrap Core JavaScript -->
+<script src="{{asset('dashboard/js/bootstrap.min.js')}}"></script>
+
 <!-- Metis Menu Plugin JavaScript -->
+<script src="{{asset('dashboard/js/metisMenu.min.js')}}"></script>
+
 <!-- Custom Theme JavaScript -->
+<script src="{{asset('dashboard/js/startmin.js')}}"></script>
 
 </body>
 </html>
